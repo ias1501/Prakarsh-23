@@ -10,7 +10,7 @@ export const EventCard = ({ imgurl, title, description,link}) => {
   return (
     <div className=' bg'>
       <Card className='card mx-auto d-flex align-items-center justify-content-center p-3'>
-      <Card.Img className='mx-auto d-flex align-items-center justify-content-center img ' variant="top" src={imgurl} />
+      <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src={imgurl} />
       <Card.Body>
         <Card.Title className='title mx-auto d-flex align-items-center justify-content-center'>{title}</Card.Title>
         <Card.Text className='description  mx-auto d-flex align-items-center justify-content-center'>
