@@ -1,0 +1,123 @@
+#About {
+  overflow: hidden;
+  position: relative;
+}
+
+.heading .abouthead {
+  text-align: center;
+  font-family: "valorant";
+  background-clip: text;
+  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
+  /* position: relative; */
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  /* height: 18.75rem; */
+  /* margin-bottom: -5rem; */
+  /* font-size: 500%; */
+  /* color: var(--bg); */
+  font-style: normal;
+  font-weight: 700;
+  left: -2.8%;
+  top: 0;
+  font-size: 240px;
+  line-height: 300px;
+  /* -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;*/
+  opacity: 0.4;
+  /* -webkit-text-stroke: 1px white; */
+  /* color: black; */
+  color: rgba(74, 180, 61, 0.6);
+
+  /* color: hsla(0, 0%, 100%, 0.05); */
+}
+
+.front-text {
+  position: absolute;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  width: 100vw;
+  text-align: center;
+  top: 110px;
+  color: var(--text-s);
+  background: var(--bg);
+}
+
+.about__container {
+  display: grid;
+  grid-template-columns: 50% 45%;
+  gap: 10%;
+  display: flex;
+  margin-top: 3rem;
+}
+.about__content {
+  font-family: "Ubuntu";
+  /* margin-top: 4rem; */
+  width: fit-content;
+  /* border: 1px solid #fff; */
+  padding: 1rem 2rem;
+  line-height: 25px;
+  background: linear-gradient(
+    111.17deg,
+    rgba(255, 255, 255, 0.04) 0.84%,
+    rgba(255, 255, 255, 0.01) 63.92%
+  );
+  mix-blend-mode: normal;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0);
+}
+.about__content p {
+  padding: 1.5rem 2rem 0 2rem;
+  line-height: 25px;
+}
+.about__container .about__img {
+  width: 100%;
+  margin-top: 4rem;
+}
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+    flex-direction: column-reverse;
+    margin: 0 auto 3rem;
+  }
+  .about__img {
+    width: 50%;
+    margin: 0 auto 3rem;
+  }
+  .heading .abouthead {
+    font-size: 80px;
+  }
+  .front-text {
+    font-size: 20px;
+    top: 130px;
+  }
+  .about__content p {
+    margin: 1rem 0 1.5rem;
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__img {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+  .heading .abouthead {
+    font-size: 60px;
+  }
+  .front-text {
+    font-size: 15px;
+    top: 135px;
+  }
+  .about__content {
+    padding: 0 0rem;
+    text-align: left;
+  }
+  .about__content p {
+    margin: 1.5rem 0;
+  }
+}

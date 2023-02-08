@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Arapey&family=Syncopate&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arapey&family=Syncopate&family=Ubuntu:wght@300&display=swap");
+@font-face {
+    font-family: valorant;
+    src: url(../src/assets/ValorantFont.ttf);
+}
+
+/* .loader {
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+    z-index: 99999;
+    background: black url('../src/assets/loader-unscreen.gif') no-repeat center;
+} */
+
+@font-face {
+    font-family: clips;
+    src: url(../src/assets/Clip.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --bg: #010d14;
+    --text-p: #f7f7f2;
+    --text-s: #00fd65;
+    --container-width-lg: 85%;
+    --container-width-md: 86%;
+    --container-width-ms: 90%;
+    --transition: all 400ms ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text-p);
+    line-height: 1.7;
+    font-family: "Arapey", sans-serif;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+
+/*======general css======*/
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.heading {
+    position: relative;
+    overflow: hidden;
+}
+
+.abouthead {
+    text-align: center;
+    font-family: "valorant";
+    background-clip: text;
+    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
+    /* position: relative; */
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    /* height: 18.75rem; */
+    /* margin-bottom: -5rem; */
+    /* font-size: 500%; */
+    /* color: var(--bg); */
+    font-style: normal;
+    font-weight: 700;
+    left: -2.8%;
+    top: 0;
+    font-size: 240px;
+    line-height: 300px;
+    /* -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;*/
+    opacity: 0.4;
+    /* -webkit-text-stroke: 1px white; */
+    /* color: black; */
+    color: rgba(74, 180, 61, 0.6);
+    /* color: hsla(0, 0%, 100%, 0.05); */
+}
+
+.front-text {
+    position: absolute;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    width: 100vw;
+    text-align: center;
+    top: 110px;
+    color: var(--text-s);
+    background: var(--bg);
+}
+
+
+/* ========= medium device media query============= */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+    .heading .abouthead {
+        font-size: 80px;
+        margin: 0;
+        padding: 0;
+    }
+    .front-text {
+        font-size: 20px;
+        top: 130px;
+    }
+}
+
+
+/* ========= small device media query============= */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-ms);
+    }
+    .heading .abouthead {
+        font-size: 60px;
+        margin: 0;
+        height: 180px;
+    }
+    .front-text {
+        font-size: 15px;
+        top: 135px;
+    }
+    section {
+        margin-top: 0;
+    }
+}

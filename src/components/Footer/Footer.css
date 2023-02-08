@@ -1,0 +1,115 @@
+.f {
+    background: black;
+}
+
+.footer {
+    display: flex;
+    /* grid-template-columns: 50% 35%; */
+    /* grid-template-rows: 70% 10%; */
+    /* gap: 10%; */
+    /* margin-top: 10rem; */
+    background: black;
+    color: white;
+    padding-top: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+    /* margin-left: 1rem; */
+    padding-left: 9rem;
+}
+
+.ficons {
+    margin: 15px;
+}
+
+.left {
+    width: 90%;
+    justify-self: center;
+}
+
+.right h1 {
+    font-family: "syncopate";
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    font-size: 28px;
+}
+
+.right .finfo .flinks {
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.btm img {
+    width: 25px;
+}
+
+.btm {
+    align-items: center;
+    display: inline;
+    font-size: 15px;
+}
+
+.belowhr {
+    border-top: 0.1px solid grey;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.belowhr img {
+    /*  border-top: 0.5px solid grey;*/
+    position: relative;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.icon a {
+    margin: 0 5px;
+    font-size: 25px;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .footer {
+       display: flex;
+       flex-direction: column;
+       padding-left: 0rem;
+    }
+    .left img {
+        width: 91vw;
+    }
+    .left {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        background: black;
+        box-sizing: border-box;
+        gap: 0;
+        align-items: center;
+        /* justify-content: space-around; */
+    }
+    .left img {
+        width: 100%;
+        /* align-self: center; */
+        justify-self: center;
+        padding: 3px 15px;
+    }
+    .belowhr img {
+        /*  border-top: 0.5px solid grey;*/
+        width: 90vw;
+    }
+    .right .finfo .flinks {
+        font-size: 2vh;
+        display: block;
+        text-decoration: none;
+        color: white;
+    }
+}
