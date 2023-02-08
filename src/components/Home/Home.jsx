@@ -29,7 +29,7 @@ const Home = () => {
             data-aos="zoom-in-down"
             data-aos-mirror="true"
           >
-            <video width='600px' src='assests/loader.mp4' autoPlay muted/>
+            <video width='600px' src='assests/loader.mp4' autoPlay playsinline muted/>
 
             {/* <img src={IMG} style={{repeat:'no-repeat'}} alt="" /> */}
             {/* <p>1-2 April</p> */}
