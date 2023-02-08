@@ -86,13 +86,20 @@ function Team() {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Core Team</Nav.Link>
+                        <Nav.Link className="team" eventKey="first">
+                          Core Team
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Developers</Nav.Link>
+                        <Nav.Link className="team" eventKey="second">
+                          Developers
+                        </Nav.Link>
                       </Nav.Item>
                     </Nav>
-                    <Tab.Content id="slideInUp" className={isVisible ? "" : ""}>
+                    <Tab.Content
+                      id="slideInDown"
+                      className={isVisible ? "" : ""}
+                    >
                       <Tab.Pane eventKey="first">
                         <Row className="align-items-center">
                           {core_team.map((project, index) => {
