@@ -10,18 +10,11 @@ const Signup = () => {
                      future announcements.</p>
             </div>
             
-              <form action="#" className="sform">
-              
-              <label for="email" className="emaillabel"> EMAIL</label> 
-              <div className="inpborder">
-                 
-              <input type="email" className="email"  required/>
-              
+             <div className="s-content">
+              <div className="email">
+                Email: <input type="email"/> 
               </div>
-                <br />
-              <button type="submit"> Get Link  </button>
-
-        </form>
+             </div>
 
 
               
