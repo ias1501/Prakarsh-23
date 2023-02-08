@@ -1,0 +1,104 @@
+.signup{
+    background: url('../../assets/bgprakarsh.png');
+    height: 190vh;
+    /* width: 100vw; */
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    /* min-width: 2000px; */
+
+}
+
+.shead h1{
+    padding-top: 5rem;
+    font-size: 3rem;
+    font-family: 'valorant';
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( 180deg,rgba(128, 128, 128) 1.25%, rgba(128, 128, 128)1.26%, rgba(255, 255, 255) 1.27%, rgba(255,255,255,0.4) 69.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 10px;
+    
+}
+
+.shead p{
+    display: flex;
+    justify-content: center;
+    font-family: 'valorant';
+    text-align: center;
+}
+
+.sform{
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    margin-left: 8px;
+    position: relative;
+    margin-top: 70px;
+    /* color: white; */
+}
+
+.email{
+    margin-left: 8px;
+    width: 13rem;
+    color: black;
+    position: relative;
+    
+    
+    
+}
+
+input[type="email"]
+{
+    
+    background: rgba(255,255,255,0.4);
+    /* margin-left: 5px; */
+    /* color: green; */
+    position: relative;
+    margin-top: 4px;
+    z-index: 999;
+
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(249, 239, 215, 1) ;
+    
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(249, 239, 215, 1);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(249, 239, 215, 1);
+  }
+
+  
+.inpborder{
+    border: 1px solid green;
+    /* opacity: 100; */
+    width: 13rem;
+    height: fit-content;
+    /* position: absolute; */
+        top: 10;
+}
+
+.emaillabel{
+    /* position: absolute; */
+    padding-right: 15px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    
+}
+.inpborder.btn{
+    background: #010f15;
+    
+    
+}
