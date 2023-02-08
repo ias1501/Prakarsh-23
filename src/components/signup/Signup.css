@@ -31,4 +31,56 @@
     text-align: center;
 }
 
+.s-content{
 
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.email input[type="email"]{
+    margin-left: 10px;
+    /* border: 2px solid green; */
+    position: relative;
+    color: white;
+    background: rgba(128, 128, 128,0.2);
+    width: 10rem;
+    border-radius: 4px;
+    
+    
+    
+
+}
+.email input:focus{
+    /* color: rgb(1, 95, 48); */
+    border: 2px solid rgb(1, 95, 48) ;
+}
+
+.input::before{
+    content:'';
+    width: 50px;
+    height: 5px;
+    border: 2px solid green;
+    position: absolute;
+    top: 0;
+}
+.sbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+    
+}
+
+.sbtn button{
+    border-radius: 4px;
+}

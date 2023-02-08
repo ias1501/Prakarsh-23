@@ -12,7 +12,12 @@ const Signup = () => {
             
              <div className="s-content">
               <div className="email">
-                Email: <input type="email"/> 
+                <span> Email</span> <input type="email"/> 
+              </div>
+              
+              <div className="sbtn">
+
+              <button type="button" > Get Link </button>
               </div>
              </div>
 
