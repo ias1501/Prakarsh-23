@@ -2,15 +2,17 @@
     background-image: url(../../assets/Card.png);
     background-repeat: no-repeat;
     object-fit: cover;
-    width: 17rem;
+    width: 17.5rem;
     /* height: fit-content; */
     filter: drop-shadow(5px 5px 10px rgba(172, 112, 255, 0.33));  
 }
 .bg{
     margin: 15px;
+    
 }
 .imgc{
-    width: 30%;
+    width: 90%;
+    padding-top: 15px;
 }
 .title{
     font-family: 'valorant';
