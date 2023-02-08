@@ -1,16 +1,19 @@
 .card{
     background-image: url(../../assets/Card.png);
-    background-repeat: no-repeat;
-    object-fit: cover;
-    width: 17rem;
+    background: content-box;
+    border:1px solid #284550;
+
+    width: 17.5rem;
     /* height: fit-content; */
     filter: drop-shadow(5px 5px 10px rgba(172, 112, 255, 0.33));  
 }
 .bg{
     margin: 15px;
+    
 }
 .imgc{
-    width: 30%;
+    width: 90%;
+    padding-top: 15px;
 }
 .title{
     font-family: 'valorant';
@@ -26,6 +29,8 @@
 .description{
     color: rgba(165, 239, 255, 0.66);
     font-family: 'ubuntu';
+    line-height: 18px;
+    text-align: center;
 }
 .btn{
     background: linear-gradient(180deg, rgba(98, 212, 237, 0.8) -27.94%, rgba(172, 112, 255, 0.79) 76.47%);

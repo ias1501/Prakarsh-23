@@ -9,7 +9,7 @@ import 'react-bootstrap'
 export const EventCard = ({ imgurl, title, description,link}) => {
   return (
     <div className='container bg'>
-      <Card className='card mx-auto d-flex align-items-center justify-content-center p-3'>
+      <Card className='card mx-auto d-flex align-items-center justify-content-center'>
       <Card.Img className='mx-auto d-flex align-items-center justify-content-center imgc ' variant="top" src={imgurl} />
       <Card.Body>
         <Card.Title className='title mx-auto d-flex align-items-center justify-content-center'>{title}</Card.Title>
