@@ -23,20 +23,23 @@ const Home = () => {
           <div className="home__btn"></div>
         </div>
 
-        <div className="home__logo">
-          <div
-            className="home__logo-img"
-            data-aos="zoom-in-down"
-            data-aos-mirror="true"
-          >
-            <video playsinline autoPlay muted>
-            <source src='assests/loader.mp4' type="video/mp4"/>
-            </video>
+         <img src={IMG} alt="Muted Video" />
+    <div
+      dangerouslySetInnerHTML={{
+        __html: `
+        <video
+          muted
+          autoplay
+          playsinline
+          preload="metadata"
+        >
+        <source src="assests/loader.mp4" type="video/mp4" />
+        </video>`
+      }}
+    />
 
             {/* <img src={IMG} style={{repeat:'no-repeat'}} alt="" /> */}
             {/* <p>1-2 April</p> */}
-         </div>
-        </div>
         </div>
     </section>
   );
