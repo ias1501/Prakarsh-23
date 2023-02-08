@@ -25,17 +25,7 @@ const Home = () => {
 
          <img src={IMG} alt="Muted Video" />
     <div
-      dangerouslySetInnerHTML={{
-        __html: `
-        <video
-          muted
-          autoplay
-          playsinline
-          preload="metadata"
-        >
-        <source src="assests/loader.mp4" type="video/mp4" />
-        </video>`
-      }}
+      
     />
 
             {/* <img src={IMG} style={{repeat:'no-repeat'}} alt="" /> */}
